@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = ({ title }) => (
   <React.Fragment>
@@ -8,7 +9,7 @@ const App = ({ title }) => (
     <Container>
       <Row>
         <Col>
-          <div>this is first</div>
+          <div>thiis is first</div>
         </Col>
         <Col>
           <div>this is second</div>
